@@ -3,7 +3,7 @@ module Dingtalk
     module Microapp
       def list
         # https://ding-doc.dingtalk.com/document#/org-dev-guide/queries-applications
-        get 'microapp/list'
+        post 'microapp/list'
       end
 
       def list_by_userid(userid)
